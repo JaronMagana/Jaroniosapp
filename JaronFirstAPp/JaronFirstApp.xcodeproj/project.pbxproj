@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BE39D2C1ECF80080099DE9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE39D2B1ECF80080099DE9C /* AppDelegate.swift */; };
+		5BE39D2E1ECF80080099DE9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE39D2D1ECF80080099DE9C /* ViewController.swift */; };
+		5BE39D311ECF80080099DE9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE39D2F1ECF80080099DE9C /* Main.storyboard */; };
+		5BE39D341ECF80080099DE9C /* JaronFirstApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE39D321ECF80080099DE9C /* JaronFirstApp.xcdatamodeld */; };
+		5BE39D361ECF80080099DE9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE39D351ECF80080099DE9C /* Assets.xcassets */; };
+		5BE39D391ECF80080099DE9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE39D371ECF80080099DE9C /* LaunchScreen.storyboard */; };
+		5BE39D441ECF80080099DE9C /* JaronFirstAPpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE39D431ECF80080099DE9C /* JaronFirstAPpTests.swift */; };
+		5BE39D4F1ECF80080099DE9C /* JaronFirstAPpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE39D4E1ECF80080099DE9C /* JaronFirstAPpUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BE39D401ECF80080099DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE39D201ECF80080099DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE39D271ECF80080099DE9C;
+			remoteInfo = JaronFirstAPp;
+		};
+		5BE39D4B1ECF80080099DE9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BE39D201ECF80080099DE9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BE39D271ECF80080099DE9C;
+			remoteInfo = JaronFirstAPp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BE39D281ECF80080099DE9C /* JaronFirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaronFirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE39D2B1ECF80080099DE9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5BE39D2D1ECF80080099DE9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5BE39D301ECF80080099DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE39D331ECF80080099DE9C /* JaronFirstApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JaronFirstApp.xcdatamodel; sourceTree = "<group>"; };
+		5BE39D351ECF80080099DE9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5BE39D381ECF80080099DE9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5BE39D3A1ECF80080099DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE39D3F1ECF80080099DE9C /* JaronFirstAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaronFirstAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE39D431ECF80080099DE9C /* JaronFirstAPpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaronFirstAPpTests.swift; sourceTree = "<group>"; };
+		5BE39D451ECF80080099DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE39D4A1ECF80080099DE9C /* JaronFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JaronFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BE39D4E1ECF80080099DE9C /* JaronFirstAPpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JaronFirstAPpUITests.swift; sourceTree = "<group>"; };
+		5BE39D501ECF80080099DE9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BE39D251ECF80080099DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE39D3C1ECF80080099DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE39D471ECF80080099DE9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BE39D1F1ECF80080099DE9C = {
+			isa = PBXGroup;
+			children = (
+				5BE39D2A1ECF80080099DE9C /* JaronFirstApp */,
+				5BE39D421ECF80080099DE9C /* JaronFirstAppTests */,
+				5BE39D4D1ECF80080099DE9C /* JaronFirstAppUITests */,
+				5BE39D291ECF80080099DE9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BE39D291ECF80080099DE9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BE39D281ECF80080099DE9C /* JaronFirstApp.app */,
+				5BE39D3F1ECF80080099DE9C /* JaronFirstAppTests.xctest */,
+				5BE39D4A1ECF80080099DE9C /* JaronFirstAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BE39D2A1ECF80080099DE9C /* JaronFirstApp */ = {
+			isa = PBXGroup;
+			children = (
+				5BE39D2B1ECF80080099DE9C /* AppDelegate.swift */,
+				5BE39D2D1ECF80080099DE9C /* ViewController.swift */,
+				5BE39D2F1ECF80080099DE9C /* Main.storyboard */,
+				5BE39D351ECF80080099DE9C /* Assets.xcassets */,
+				5BE39D371ECF80080099DE9C /* LaunchScreen.storyboard */,
+				5BE39D3A1ECF80080099DE9C /* Info.plist */,
+				5BE39D321ECF80080099DE9C /* JaronFirstApp.xcdatamodeld */,
+			);
+			name = JaronFirstApp;
+			path = JaronFirstAPp;
+			sourceTree = "<group>";
+		};
+		5BE39D421ECF80080099DE9C /* JaronFirstAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE39D431ECF80080099DE9C /* JaronFirstAPpTests.swift */,
+				5BE39D451ECF80080099DE9C /* Info.plist */,
+			);
+			name = JaronFirstAppTests;
+			path = JaronFirstAPpTests;
+			sourceTree = "<group>";
+		};
+		5BE39D4D1ECF80080099DE9C /* JaronFirstAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5BE39D4E1ECF80080099DE9C /* JaronFirstAPpUITests.swift */,
+				5BE39D501ECF80080099DE9C /* Info.plist */,
+			);
+			name = JaronFirstAppUITests;
+			path = JaronFirstAPpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BE39D271ECF80080099DE9C /* JaronFirstApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE39D531ECF80080099DE9C /* Build configuration list for PBXNativeTarget "JaronFirstApp" */;
+			buildPhases = (
+				5BE39D241ECF80080099DE9C /* Sources */,
+				5BE39D251ECF80080099DE9C /* Frameworks */,
+				5BE39D261ECF80080099DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaronFirstApp;
+			productName = JaronFirstAPp;
+			productReference = 5BE39D281ECF80080099DE9C /* JaronFirstApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BE39D3E1ECF80080099DE9C /* JaronFirstAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE39D561ECF80080099DE9C /* Build configuration list for PBXNativeTarget "JaronFirstAppTests" */;
+			buildPhases = (
+				5BE39D3B1ECF80080099DE9C /* Sources */,
+				5BE39D3C1ECF80080099DE9C /* Frameworks */,
+				5BE39D3D1ECF80080099DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE39D411ECF80080099DE9C /* PBXTargetDependency */,
+			);
+			name = JaronFirstAppTests;
+			productName = JaronFirstAPpTests;
+			productReference = 5BE39D3F1ECF80080099DE9C /* JaronFirstAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5BE39D491ECF80080099DE9C /* JaronFirstAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BE39D591ECF80080099DE9C /* Build configuration list for PBXNativeTarget "JaronFirstAppUITests" */;
+			buildPhases = (
+				5BE39D461ECF80080099DE9C /* Sources */,
+				5BE39D471ECF80080099DE9C /* Frameworks */,
+				5BE39D481ECF80080099DE9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BE39D4C1ECF80080099DE9C /* PBXTargetDependency */,
+			);
+			name = JaronFirstAppUITests;
+			productName = JaronFirstAPpUITests;
+			productReference = 5BE39D4A1ECF80080099DE9C /* JaronFirstAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BE39D201ECF80080099DE9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jaron Magana";
+				TargetAttributes = {
+					5BE39D271ECF80080099DE9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					5BE39D3E1ECF80080099DE9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BE39D271ECF80080099DE9C;
+					};
+					5BE39D491ECF80080099DE9C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5BE39D271ECF80080099DE9C;
+					};
+				};
+			};
+			buildConfigurationList = 5BE39D231ECF80080099DE9C /* Build configuration list for PBXProject "JaronFirstApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5BE39D1F1ECF80080099DE9C;
+			productRefGroup = 5BE39D291ECF80080099DE9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BE39D271ECF80080099DE9C /* JaronFirstApp */,
+				5BE39D3E1ECF80080099DE9C /* JaronFirstAppTests */,
+				5BE39D491ECF80080099DE9C /* JaronFirstAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BE39D261ECF80080099DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE39D391ECF80080099DE9C /* LaunchScreen.storyboard in Resources */,
+				5BE39D361ECF80080099DE9C /* Assets.xcassets in Resources */,
+				5BE39D311ECF80080099DE9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE39D3D1ECF80080099DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE39D481ECF80080099DE9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BE39D241ECF80080099DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE39D2E1ECF80080099DE9C /* ViewController.swift in Sources */,
+				5BE39D341ECF80080099DE9C /* JaronFirstApp.xcdatamodeld in Sources */,
+				5BE39D2C1ECF80080099DE9C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE39D3B1ECF80080099DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE39D441ECF80080099DE9C /* JaronFirstAPpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BE39D461ECF80080099DE9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BE39D4F1ECF80080099DE9C /* JaronFirstAPpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BE39D411ECF80080099DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE39D271ECF80080099DE9C /* JaronFirstApp */;
+			targetProxy = 5BE39D401ECF80080099DE9C /* PBXContainerItemProxy */;
+		};
+		5BE39D4C1ECF80080099DE9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BE39D271ECF80080099DE9C /* JaronFirstApp */;
+			targetProxy = 5BE39D4B1ECF80080099DE9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BE39D2F1ECF80080099DE9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE39D301ECF80080099DE9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5BE39D371ECF80080099DE9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BE39D381ECF80080099DE9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BE39D511ECF80080099DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5BE39D521ECF80080099DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5BE39D541ECF80080099DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JaronFirstApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmagana.FirstApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5BE39D551ECF80080099DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JaronFirstApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmagana.FirstApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5BE39D571ECF80080099DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JaronFirstAPpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmagana.JaronFirstAPpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JaronFirstAPp.app/JaronFirstAPp";
+			};
+			name = Debug;
+		};
+		5BE39D581ECF80080099DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JaronFirstAPpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmagana.JaronFirstAPpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JaronFirstAPp.app/JaronFirstAPp";
+			};
+			name = Release;
+		};
+		5BE39D5A1ECF80080099DE9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JaronFirstAPpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmagana.JaronFirstAPpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JaronFirstAPp;
+			};
+			name = Debug;
+		};
+		5BE39D5B1ECF80080099DE9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = JaronFirstAPpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jmagana.JaronFirstAPpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = JaronFirstAPp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BE39D231ECF80080099DE9C /* Build configuration list for PBXProject "JaronFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE39D511ECF80080099DE9C /* Debug */,
+				5BE39D521ECF80080099DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE39D531ECF80080099DE9C /* Build configuration list for PBXNativeTarget "JaronFirstApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE39D541ECF80080099DE9C /* Debug */,
+				5BE39D551ECF80080099DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE39D561ECF80080099DE9C /* Build configuration list for PBXNativeTarget "JaronFirstAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE39D571ECF80080099DE9C /* Debug */,
+				5BE39D581ECF80080099DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BE39D591ECF80080099DE9C /* Build configuration list for PBXNativeTarget "JaronFirstAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BE39D5A1ECF80080099DE9C /* Debug */,
+				5BE39D5B1ECF80080099DE9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5BE39D321ECF80080099DE9C /* JaronFirstApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5BE39D331ECF80080099DE9C /* JaronFirstApp.xcdatamodel */,
+			);
+			currentVersion = 5BE39D331ECF80080099DE9C /* JaronFirstApp.xcdatamodel */;
+			path = JaronFirstApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5BE39D201ECF80080099DE9C /* Project object */;
+}
